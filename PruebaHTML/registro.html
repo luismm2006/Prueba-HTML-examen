@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Registrar un Nuevo Superhéroe</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./heroes.html">Listado de Superhéroes</a></li>
+                <li><a href="./registro.html">Registrar Superhéroe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Formulario de Registro</h2>
+        <form action="./registrocorrecto.html">
+            <div>
+                <fieldset>
+                    <legend>Datos del Superhéroe</legend>
+                    <div>
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" name="Nombre" id="Nombre"><br>
+                    </div>
+                    <div>
+                        <label for="poderes">Selecciona los poderes:</label>
+                        <select name="poderes" id="poderes">
+                            <option value="--Selecciona un Poder--">--Selecciona un Poder--</option>
+                            <option value="Vuelo">Vuelo</option>
+                            <option value="Super Fuerza">Super Fuerza</option>
+                            <option value="Invisibilidad">Invisibilidad</option>
+                            <option value="Telepatía">Telepatía</option>
+                            <option value="Velocidad Sobrehumana">Velocidad Sobrehumana</option>
+                            <option value="Control de Elementos">Control de Elementos</option>
+                            <option value="Regeneración">Regeneración</option>
+                        </select><br><br>
+                    </div>
+                    <div>
+                        <label for="Género">Género:</label>
+                        <input type="radio" name="Masculino" id="Masculino">
+                        <label for="Género">Masculino</label>
+                        <input type="radio" name="Femenino" id="Femenino">
+                        <label for="Género">Femenino</label><br><br>
+                        <label for="Habilidades">Habilidades Especiales:</label>
+                        <input type="checkbox" name="Vuelo" id="Vuelo">
+                        <label for="Habilidades">Vuelo</label>
+                        <input type="checkbox" name="Superfuerza" id="Superfuerza">
+                        <label for="Habilidades">Superfuerza</label>
+                        <input type="checkbox" name="Invisibilidad" id="Invisibilidad">
+                        <label for="Habilidades">Invisibilidad</label><br><br>
+                    </div>
+                    <div>
+                        <label for="Imagen">Subir Imagen:</label>
+                        <input type="file" name="Imagen" id="Imagen"> <br><br>
+                    </div>
+                    <div>
+                        <label for="Descripción">Descripción Detallada</label>
+                        <textarea name="Descripción" id="Descripción"></textarea><br><br>
+                    </div>
+                    <div>
+                        <input type="submit" value="Registrar Superhéroe">
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </section>
+    <footer>
+        Modelo de lenguaje de marcas <br><br>
+        Profesora: Marta López Martos <br><br>
+        Alumno/a: Nombre y Apellidos del alumno/a
+    </footer>
+</body>
+</html>
